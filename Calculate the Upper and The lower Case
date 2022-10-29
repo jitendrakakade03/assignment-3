@@ -1,0 +1,10 @@
+st="The quick Brow Fox"
+capital=0
+small=0
+for i in st:
+ if i>='A' and i<='Z':
+    capital+=1
+ if i>='a' and i<='z':
+    small+=1
+print("LowerCase letter in the String",capital)
+print("UpperCase letter in the String",small)
